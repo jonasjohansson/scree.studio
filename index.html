@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DOME DREAMING</title>
+    <title>scree.studio</title>
     <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
   </head>
   <body>
     <div id="adobe-dc-view"></div>
     <script>
       document.addEventListener("adobe_dc_view_sdk.ready", function() {
-        var adobeDCView = new AdobeDC.View({ clientId: "e2fe28f53a6b462598cb5e4c927fd91a", divId: "adobe-dc-view" });
+        var adobeDCView = new AdobeDC.View({ clientId: "6e1b40a03a284170887baaea5619653a", divId: "adobe-dc-view" });
         adobeDCView.previewFile({
-          content: { location: { url: "DOME DREAMING PRESENTATION.pdf" } },
-          metaData: { fileName: "DOME DREAMING PRESENTATION.pdf" }
+          content: { location: { url: "SCREE.pdf" } },
+          metaData: { fileName: "SCREE.pdf" }
         }, { embedMode: "IN_LINE" });
       });
     </script>
