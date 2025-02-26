@@ -3,18 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>scree.studio</title>
-    <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+    <title>Scree Studio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="adobe-dc-view"></div>
-    <script>
-      document.addEventListener("adobe_dc_view_sdk.ready", function() {
-        var adobeDCView = new AdobeDC.View({ clientId: "6e1b40a03a284170887baaea5619653a", divId: "adobe-dc-view" });
-        adobeDCView.previewFile({
-          content: { location: { url: "SCREE.pdf" } },
-          metaData: { fileName: "SCREE.pdf" }
-        }, { embedMode: "IN_LINE" });
-      });
-    </script>
+    <div class="content">
+      <div>Scree Studio</div>
+      <div>Jonas Johansson</div>
+      <div>Nathanael Hunt</div>
+      <div>Joshua Space</div>
+      <div>hi@scree.studio</div>
+    </div>
+  </body>
 </html>

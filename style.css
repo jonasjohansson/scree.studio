@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Area";
+  src: url("Area-Light.woff2") format("woff2"),
+    url("Area-Light.woff") format("woff"),
+    url("Area-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("background.jpg") no-repeat center center/cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 24px;
+}
